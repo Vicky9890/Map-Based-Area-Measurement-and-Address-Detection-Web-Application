@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #59ca84, #40f284);
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+h2,h3 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #222;
+}
+
+.map-container {
+    width: 90%;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+#map {
+    height: 600px;
+    border-radius: 10px;
+}
+
+.result {
+    margin: 2rem auto;
+    width: 60%;
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.result p {
+    margin: 6px 0;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .map-container { width: 95%; }
+    .result { width: 90%; }
+    #map { height: 400px; }
+}
